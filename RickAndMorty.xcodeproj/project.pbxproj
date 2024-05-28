@@ -22,6 +22,10 @@
 		D87C50092C059923000933A2 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C50082C059923000933A2 /* RMService.swift */; };
 		D87C500B2C05993B000933A2 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C500A2C05993B000933A2 /* RMRequest.swift */; };
 		D87C500D2C059A36000933A2 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C500C2C059A36000933A2 /* RMEndpoint.swift */; };
+		D87C500F2C05DADA000933A2 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C500E2C05DADA000933A2 /* RMOrigin.swift */; };
+		D87C50112C05DB6C000933A2 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C50102C05DB6C000933A2 /* RMSingleLocation.swift */; };
+		D87C50132C05DCD6000933A2 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C50122C05DCD6000933A2 /* RMCharacterStatus.swift */; };
+		D87C50152C05DD12000933A2 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C50142C05DD12000933A2 /* RMCharacterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		D87C50082C059923000933A2 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		D87C500A2C05993B000933A2 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		D87C500C2C059A36000933A2 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		D87C500E2C05DADA000933A2 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		D87C50102C05DB6C000933A2 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		D87C50122C05DCD6000933A2 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		D87C50142C05DD12000933A2 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				D87C4FF92C056337000933A2 /* RMLocation.swift */,
 				D87C4FFB2C05635E000933A2 /* RMCharacter.swift */,
 				D87C4FFD2C05636E000933A2 /* RMEpisode.swift */,
+				D87C500E2C05DADA000933A2 /* RMOrigin.swift */,
+				D87C50102C05DB6C000933A2 /* RMSingleLocation.swift */,
+				D87C50122C05DCD6000933A2 /* RMCharacterStatus.swift */,
+				D87C50142C05DD12000933A2 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87C500F2C05DADA000933A2 /* RMOrigin.swift in Sources */,
+				D87C50112C05DB6C000933A2 /* RMSingleLocation.swift in Sources */,
+				D87C50132C05DCD6000933A2 /* RMCharacterStatus.swift in Sources */,
+				D87C50152C05DD12000933A2 /* RMCharacterGender.swift in Sources */,
 				D87C50032C056482000933A2 /* RMLocationViewController.swift in Sources */,
 				D87C4FFE2C05636E000933A2 /* RMEpisode.swift in Sources */,
 				D87C4FE32C055D2A000933A2 /* RMTabBarController.swift in Sources */,
@@ -384,6 +400,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H49JP83PQC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -410,6 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H49JP83PQC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
