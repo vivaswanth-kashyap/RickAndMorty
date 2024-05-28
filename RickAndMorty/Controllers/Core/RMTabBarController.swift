@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to house tabs and root tab controller
 final class RMTabBarController: UITabBarController {
 
     override func viewDidLoad() {
@@ -35,7 +36,7 @@ final class RMTabBarController: UITabBarController {
                                        image: UIImage(systemName: "person"),
                                        tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "Locations",
-                                       image: UIImage(systemName: "globef"),
+                                       image: UIImage(systemName: "globe"),
                                        tag: 2)
         nav3.tabBarItem = UITabBarItem(title: "Episodes",
                                        image: UIImage(systemName: "tv"),

@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// contorller to search and show settings
 final class RMSettingsViewController: UIViewController {
 
     override func viewDidLoad() {
